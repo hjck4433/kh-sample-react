@@ -2,7 +2,15 @@ import { Fragment } from 'react';
 import './App.css';
 // import Section from "./Section";
 // import MyComponent from './MyComponent';
-import Say from './Say';
+// import Say from './Say';
+//import Clock from './Clock';
+//import EventPractice from './onChange';
+//import EventHandler from './EventHandler';
+//import FruitSelect from './FruitSelect';
+//import RadioButton from './RadioButton';
+// import Table from './Table';
+// import TableMap from './TableMap';
+import CreateRef from './useRef';
 
 function App() {
   // 화면을 그려주는 부분 + 자바스크립트 이벤트 처리
@@ -14,7 +22,15 @@ function App() {
       {/* <MyComponent name="햄스터" age={30}>
         안녕하세요
       </MyComponent> */}
-      <Say />
+      {/* <Say /> */}
+      {/* <Clock /> */}
+      {/* <EventPractice /> */}
+      {/* <EventHandler /> */}
+      {/* <FruitSelect /> */}
+      {/* <RadioButton /> */}
+      {/* <Table /> */}
+      {/* <TableMap /> */}
+      <CreateRef />
     </Fragment>
   );
 }
