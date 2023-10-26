@@ -10,7 +10,16 @@ import './App.css';
 //import RadioButton from './RadioButton';
 // import Table from './Table';
 // import TableMap from './TableMap';
-import CreateRef from './useRef';
+// import CreateRef from './useRef';
+// import UserList from './UserList';
+// import TodoList from './TodoList';
+// import Counter from './Hooks';
+// 수정필요
+// import PrintInfo from './UseStatePrint';
+// 강사님
+// import NameCard from './UseStatePrintT';
+// import MemberInfo from './Hooks2';
+import Counter2 from './Hooks3';
 
 function App() {
   // 화면을 그려주는 부분 + 자바스크립트 이벤트 처리
@@ -30,7 +39,14 @@ function App() {
       {/* <RadioButton /> */}
       {/* <Table /> */}
       {/* <TableMap /> */}
-      <CreateRef />
+      {/* <CreateRef /> */}
+      {/* <UserList /> */}
+      {/* <TodoList /> */}
+      {/* <Counter /> */}
+      {/* <PrintInfo /> */}
+      {/* <NameCard /> */}
+      {/* <MemberInfo /> */}
+      <Counter2 />
     </Fragment>
   );
 }

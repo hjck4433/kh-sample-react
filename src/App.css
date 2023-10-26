@@ -3,3 +3,19 @@
   color: darkgreen;
   font-weight: bold;
 }
+h1 {
+  color: royalblue;
+}
+.title-name {
+  color: royalblue;
+  font-size: 2em;
+}
+.del-guide {
+  color: red;
+  font-style: italic;
+}
+
+ul,
+li {
+  list-style: none;
+}
