@@ -19,7 +19,8 @@ import './App.css';
 // 강사님
 // import NameCard from './UseStatePrintT';
 // import MemberInfo from './Hooks2';
-import Counter2 from './Hooks3';
+// import Counter2 from './Hooks3';
+import Average from './Hooks4';
 
 function App() {
   // 화면을 그려주는 부분 + 자바스크립트 이벤트 처리
@@ -46,7 +47,8 @@ function App() {
       {/* <PrintInfo /> */}
       {/* <NameCard /> */}
       {/* <MemberInfo /> */}
-      <Counter2 />
+      {/* <Counter2 /> */}
+      <Average />
     </Fragment>
   );
 }
